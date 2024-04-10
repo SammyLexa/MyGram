@@ -1,24 +1,22 @@
-import logo from './logo.svg';
+
 import './App.css';
+import ConteudoLateralEsquerda from './assets/conteudoLateralEsquerda/ConteudoLateralEsquerda.jsx'
+import ConteudoCentral from './assets/conteudoCentral/ConteudoCentral.jsx'
+import ConteudoLateralDireita from './assets/conteudoLateralDireita/ConteudoLateralDireita.jsx'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <ConteudoLateralEsquerda>
+
+      </ConteudoLateralEsquerda>
+      <ConteudoCentral>
+
+      </ConteudoCentral>
+      <ConteudoLateralDireita>
+
+      </ConteudoLateralDireita>
+    </>
   );
 }
 
