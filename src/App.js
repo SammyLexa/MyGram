@@ -7,15 +7,9 @@ import ConteudoLateralDireita from './assets/conteudoLateralDireita/ConteudoLate
 function App() {
   return (
     <>
-      <ConteudoLateralEsquerda>
-
-      </ConteudoLateralEsquerda>
-      <ConteudoCentral>
-
-      </ConteudoCentral>
-      <ConteudoLateralDireita>
-
-      </ConteudoLateralDireita>
+      <ConteudoLateralEsquerda/>
+      <ConteudoCentral/>
+      <ConteudoLateralDireita/>
     </>
   );
 }
